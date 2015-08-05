@@ -1,33 +1,34 @@
 node-channeladvisor
 -------------------
 
-This is a wrapper around the ChannelAdvisor SOAP API.
+This is a wrapper around the ChannelAdvisor REST API.
 
-While it is pretty simple to use the `soap` module to make SOAP calls to
+While it is pretty simple to use the `Rest` module to make REST calls to
 ChannelAdvisor, there is a lot of boilerplate for setting up each call which
 this project aims to eliminate.
 
-example
--------
+Example Usage
+------------
+
+//Coming Soon (for now look at test.js to get an idea)
 
 
-
-install
--------
+Installing
+----------
 
 ```bash
-npm install node-channeladvisor-rest
+npm install node-channeladvisor-rest --save
 ```
 
-api
----
+Channel Advisor Offical API
+--------------------------_
 
 The complete documentation of ChannelAdvisor's Rest API is available at the
 [ChannelAdvisor Developer Network](http://developers.channeladvisor.com/rest/). 
 
 
-notes
------
+Disclaimer
+----------
 
 I am not in any way affiliated with ChannelAdvisor other than being a customer.
 ChannelAdvisor is a registered trademark of ChannelAdvisor Corporation. I have

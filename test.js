@@ -1,4 +1,15 @@
-var ChannelAdvisor = require('./lib/channelAdvisor');//();//.settings({debug:true})
+var ChannelAdvisor = require('./lib/channelAdvisor');
+ChannelAdvisor.settings({
+    apiEndPoint: 'https://api.channeladvisor.com/',
+    profileID : '',
+    appCredentials: {
+        client_id: 'gdjw3u9akzep5zuxfw8utb536o8rbil6',
+        client_secret: 'Ikk5tfCP4Ey7l_pwDywOYw',
+        refresh_token: 'yEvlqTUplxLPEMBs4itfk5phnl4G2G1DEB02Obux1SY',
+        scope: ['orders', 'inventory']
+    },
+    debugLogs: true // Only use this for testing purposes
+});
 
 //var api = ChannelAdvisor.settings({
 //	applicationID: process.env.CHANNEL_ADVISOR_DEVELOPER_ID,
