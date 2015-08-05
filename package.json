@@ -1,0 +1,35 @@
+{
+  "name": "channeladvisor",
+  "version": "1.0.0",
+  "description": "API wrapper for ChannelAdvisor's REST service",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^1.4.0",
+    "querystring": "^0.2.0",
+    "refresh-token": "^0.1.0",
+    "request": "^2.60.0",
+    "underscore": "^1.8.3",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yonib05/node-channeladvisor-rest.git"
+  },
+  "keywords": [
+    "channel",
+    "advisor",
+    "api",
+    "wrapper",
+    "rest"
+  ],
+  "author": "Jonathan Segev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yonib05/node-channeladvisor-rest/issues"
+  },
+  "homepage": "https://github.com/yonib05/node-channeladvisor-rest"
+}
