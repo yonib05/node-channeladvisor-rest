@@ -21,7 +21,7 @@ npm install node-channeladvisor-rest --save
 ```
 
 Channel Advisor Offical API
---------------------------_
+---------------------------
 
 The complete documentation of ChannelAdvisor's Rest API is available at the
 [ChannelAdvisor Developer Network](http://developers.channeladvisor.com/rest/). 

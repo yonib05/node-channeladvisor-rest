@@ -1,5 +1,5 @@
 {
-  "name": "channeladvisor",
+  "name": "channeladvisor-rest",
   "version": "1.0.0",
   "description": "API wrapper for ChannelAdvisor's REST service",
   "main": "index.js",

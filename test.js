@@ -1,5 +1,4 @@
-var ChannelAdvisor = require('./lib/channelAdvisor');
-ChannelAdvisor.settings({
+var ChannelAdvisor = require('./lib/channelAdvisor')({
     apiEndPoint: 'https://api.channeladvisor.com/',
     profileID : '',
     appCredentials: {
@@ -11,23 +10,19 @@ ChannelAdvisor.settings({
     debugLogs: true // Only use this for testing purposes
 });
 
-//var api = ChannelAdvisor.settings({
-//	applicationID: process.env.CHANNEL_ADVISOR_DEVELOPER_ID,
-//	sharedSecret: process.env.CHANNEL_ADVISOR_SHARED_SECRET,
-//	redirect_uri: process.env.CHANNEL_ADVISOR_REDIRECT_URI,
-//	access_type : process.env.CHANNEL_ADVISOR_ACCESS_TYPE,
-//	scope: process.env.CHANNEL_ADVISOR_ACCESS_SCOPE,
-//	debug : true
+
+
+
+
+//ChannelAdvisor.orders.get.$(null, null, function(err, body){ //{$filter: 'BuyerEmailAddress eq \' buyer@example.com\''}
+//    console.log(err, body);
+//
 //});
 
-
-
-
-ChannelAdvisor.orders.get.$(null, null, function(err, body){ //{$filter: 'BuyerEmailAddress eq \' buyer@example.com\''}
-    console.log(err, body);
-
-});
-
+//ChannelAdvisor.products.get.$(72176, null, function(err, body){ //{$filter: 'BuyerEmailAddress eq \' buyer@example.com\''}
+//    console.log(err, body);
+//
+//});
 
 //
 //ChannelAdvisor.orders.post.create({
