@@ -1,1 +1,1 @@
-module.exports = require('./lib/channelAdvisor')();
+module.exports = require('./lib/channelAdvisor');

@@ -17,7 +17,7 @@ Installing
 ----------
 
 ```bash
-npm install node-channeladvisor-rest --save
+npm install channeladvisor-rest --save
 ```
 
 Channel Advisor Offical API
