@@ -1,5 +1,9 @@
 node-channeladvisor
 -------------------
+[![npm](https://img.shields.io/npm/dm/localeval.svg?style=flat-square)]()
+[![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)]()
+[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social)]()
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)]()
 
 This is a wrapper around the ChannelAdvisor REST API.
 
