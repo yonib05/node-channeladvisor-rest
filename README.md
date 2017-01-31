@@ -1,8 +1,6 @@
 node-channeladvisor
 -------------------
-[![npm](https://img.shields.io/npm/dm/localeval.svg?style=flat-square)](https://www.npmjs.com/package/channeladvisor-rest)
-[![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/channeladvisor-rest)
-[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social)](https://github.com/yonib05/node-channeladvisor-rest#fork-destination-box)
+[![npm](https://img.shields.io/badge/npm-v1.0.6-blue.svg)](https://www.npmjs.com/package/channeladvisor-rest)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)]()
 
 This is a wrapper around the ChannelAdvisor REST API.
