@@ -1,7 +1,5 @@
 node-channeladvisor
 -------------------
-[![npm](https://img.shields.io/badge/npm-v1.0.6-blue.svg)](https://www.npmjs.com/package/channeladvisor-rest)
-[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)]()
 
 This is a wrapper around the ChannelAdvisor REST API.
 
