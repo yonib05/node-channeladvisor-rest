@@ -31,7 +31,7 @@ ChannelAdvisor.products.get.$(72176, null, function(err, body){ //{$filter: 'Buy
 
 
 
-ChannelAdvisor.orders.post.create({
+ChannelAdvisor.orders.post.$({
     SiteName: 'Wanelo',
     BuyerEmailAddress: 'buyer@example.com',
     TotalShippingPrice: 6,

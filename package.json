@@ -1,15 +1,12 @@
 {
   "name": "channeladvisor-rest",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "API wrapper for ChannelAdvisor's REST service",
   "main": "index.js",
   "dependencies": {
-    "async": "^1.4.0",
-    "querystring": "^0.2.0",
-    "refresh-token": "^0.1.1",
-    "request": "^2.60.0",
-    "underscore": "^1.8.3",
-    "util": "^0.10.3"
+    "refresh-token": "1.0.0",
+    "request": "^2.88.0",
+    "underscore": "^1.9.1"
   },
   "devDependencies": {},
   "scripts": {
